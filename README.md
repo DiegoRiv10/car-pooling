@@ -6,8 +6,9 @@
 |-------|---------|
 | **Proyecto** | Car-Pooling Universitario |
 | **Equipo** | Diego Rivera · Sebastián Lugo · Diego Quintero |
-| **Sesión actual** | Sesión 1 |
+| **Sesión actual** | Sesión 2 |
 | **Estado** | 🟢 En progreso |
+| **Tablero operativo** | [Pendiente de pegar link publico de Jira/Trello](#) |
 
 ---
 
@@ -49,12 +50,14 @@ car-pooling/
 ├── management/          # Gestión estratégica del proyecto
 │   ├── presupuesto.md   # Presupuesto inicial
 │   ├── roi.md           # Cálculo de Retorno de Inversión
-│   └── backlog.csv      # Exportación del Backlog (Jira)
+│   ├── backlog.csv      # Exportación del Backlog (Jira/Trello)
+│   └── backlog-inicial.md # Backlog operativo de la Sesión 2
 │
 ├── docs/                # Documentación de ingeniería
 │   ├── historias-de-usuario.md
 │   ├── diccionario-de-datos.md
-│   └── matriz-de-riesgos.md
+│   ├── matriz-de-riesgos.md
+│   └── entrega-sesion-2.md # Checklist y flujo de PR de la Sesión 2
 │
 ├── prototypes/          # Activos de diseño y UX
 │   ├── figma-link.md    # Enlace permanente a Figma
@@ -74,6 +77,12 @@ car-pooling/
 
 > ⚠️ **Regla de Oro:** *"Todo debe estar en la rama main para que cuente como entregado y ser calificado."*
 
+### Entregable Sesion 2
+
+- [Backlog inicial](management/backlog-inicial.md)
+- [Backlog en CSV para tablero](management/backlog.csv)
+- [Guia de entrega y Pull Request](docs/entrega-sesion-2.md)
+
 ---
 
 ## 📅 Bitácora de Avance Semanal
@@ -81,7 +90,7 @@ car-pooling/
 | Sesión | Fecha | Entregable | Estado |
 |--------|-------|------------|--------|
 | 1 | — | Repo, estructura de carpetas, README con visión del MVP | ✅ Completado |
-| 2 | — | Pendiente | ⬜ |
+| 2 | — | Tablero operativo y backlog inicial con 12 tareas asignadas | 🟡 En progreso |
 | 3 | — | Pendiente | ⬜ |
 | 4 | — | Pendiente | ⬜ |
 
