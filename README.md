@@ -8,7 +8,7 @@
 | **Equipo** | Diego Rivera · Sebastián Lugo · Diego Quintero |
 | **Sesión actual** | Sesión 2 |
 | **Estado** | 🟢 En progreso |
-| **Tablero operativo** | [Pendiente de pegar link publico de Jira/Trello](#) |
+| **Tablero operativo** | [Jira - Car-Pooling](https://cesunbc-team-ztwxd7jm.atlassian.net/?continue=https%3A%2F%2Fcesunbc-team-ztwxd7jm.atlassian.net%2Fwelcome%2Fsoftware%3FprojectId%3D10000&atlOrigin=eyJpIjoiYTIxNzRjODc1NzU0NDRhZGEwMDE5ODI1Y2YyODI4YzQiLCJwIjoiamlyYS1zb2Z0d2FyZSJ9) |
 
 ---
 
@@ -90,7 +90,7 @@ car-pooling/
 | Sesión | Fecha | Entregable | Estado |
 |--------|-------|------------|--------|
 | 1 | — | Repo, estructura de carpetas, README con visión del MVP | ✅ Completado |
-| 2 | — | Tablero operativo y backlog inicial con 12 tareas asignadas | 🟡 En progreso |
+| 2 | — | Tablero operativo y backlog inicial con 12 tareas asignadas | ✅ Completado |
 | 3 | — | Pendiente | ⬜ |
 | 4 | — | Pendiente | ⬜ |
 

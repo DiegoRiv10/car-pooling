@@ -2,9 +2,9 @@
 
 ## Tablero operativo
 
-**Link publico del tablero:** [Pendiente de pegar link de Jira/Trello](#)
+**Link publico del tablero:** [Jira - Car-Pooling](https://cesunbc-team-ztwxd7jm.atlassian.net/?continue=https%3A%2F%2Fcesunbc-team-ztwxd7jm.atlassian.net%2Fwelcome%2Fsoftware%3FprojectId%3D10000&atlOrigin=eyJpIjoiYTIxNzRjODc1NzU0NDRhZGEwMDE5ODI1Y2YyODI4YzQiLCJwIjoiamlyYS1zb2Z0d2FyZSJ9)
 
-> Reemplazar el enlace anterior cuando el tablero este creado y compartido como publico o visible para el profesor.
+> Verificar que el tablero este compartido como publico o visible para el profesor.
 
 ## Sprint Planning 1
 
