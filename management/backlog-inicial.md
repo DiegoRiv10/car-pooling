@@ -2,7 +2,7 @@
 
 ## Tablero operativo
 
-**Link publico del tablero:** [Jira - Car-Pooling](https://cesunbc-team-ztwxd7jm.atlassian.net/?continue=https%3A%2F%2Fcesunbc-team-ztwxd7jm.atlassian.net%2Fwelcome%2Fsoftware%3FprojectId%3D10000&atlOrigin=eyJpIjoiYTIxNzRjODc1NzU0NDRhZGEwMDE5ODI1Y2YyODI4YzQiLCJwIjoiamlyYS1zb2Z0d2FyZSJ9)
+**Link publico del tablero:** [Jira - Car-Pooling](https://cesunbc-team-ztwxd7jm.atlassian.net/jira/software/projects/CPTU/list?jql=project+%3D+CPTU+ORDER+BY+cf%5B10019%5D+ASC&atlOrigin=eyJpIjoiMjE1MGY3OTVkNTlmNDllMjhmNzk3MjIwNDlhM2Q5NjAiLCJwIjoiaiJ9)
 
 > Verificar que el tablero este compartido como publico o visible para el profesor.
 
