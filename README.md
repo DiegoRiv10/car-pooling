@@ -6,7 +6,7 @@
 |-------|---------|
 | **Proyecto** | Car-Pooling Universitario |
 | **Equipo** | Diego Rivera · Sebastián Lugo · Diego Quintero |
-| **Sesión actual** | Sesión 2 |
+| **Sesión actual** | Sesión 3 |
 | **Estado** | 🟢 En progreso |
 | **Tablero operativo** | [Jira - Car-Pooling](https://cesunbc-team-ztwxd7jm.atlassian.net/jira/software/projects/CPTU/list?jql=project+%3D+CPTU+ORDER+BY+cf%5B10019%5D+ASC&atlOrigin=eyJpIjoiMjE1MGY3OTVkNTlmNDllMjhmNzk3MjIwNDlhM2Q5NjAiLCJwIjoiaiJ9) |
 
@@ -51,13 +51,16 @@ car-pooling/
 │   ├── presupuesto.md   # Presupuesto inicial
 │   ├── roi.md           # Cálculo de Retorno de Inversión
 │   ├── backlog.csv      # Exportación del Backlog (Jira/Trello)
-│   └── backlog-inicial.md # Backlog operativo de la Sesión 2
+│   ├── backlog-inicial.md # Backlog operativo de la Sesión 2
+│   └── jira-historias-sesion-3.csv # Apoyo para reestructura en Jira
 │
 ├── docs/                # Documentación de ingeniería
 │   ├── historias-de-usuario.md
+│   ├── historias_de_usuario.md # Historias oficiales refinadas de la Sesión 3
 │   ├── diccionario-de-datos.md
 │   ├── matriz-de-riesgos.md
-│   └── entrega-sesion-2.md # Checklist y flujo de PR de la Sesión 2
+│   ├── entrega-sesion-2.md # Checklist y flujo de PR de la Sesión 2
+│   └── entrega-sesion-3.md # Checklist y flujo de PR de la Sesión 3
 │
 ├── prototypes/          # Activos de diseño y UX
 │   ├── figma-link.md    # Enlace permanente a Figma
@@ -83,6 +86,12 @@ car-pooling/
 - [Backlog en CSV para tablero](management/backlog.csv)
 - [Guia de entrega y Pull Request](docs/entrega-sesion-2.md)
 
+### Entregable Sesion 3
+
+- [Historias de usuario refinadas](docs/historias_de_usuario.md)
+- [CSV de apoyo para Jira](management/jira-historias-sesion-3.csv)
+- [Guia de entrega y Pull Request](docs/entrega-sesion-3.md)
+
 ---
 
 ## 📅 Bitácora de Avance Semanal
@@ -91,7 +100,7 @@ car-pooling/
 |--------|-------|------------|--------|
 | 1 | — | Repo, estructura de carpetas, README con visión del MVP | ✅ Completado |
 | 2 | — | Tablero operativo y backlog inicial con 12 tareas asignadas | ✅ Completado |
-| 3 | — | Pendiente | ⬜ |
+| 3 | — | Refinamiento de 4 historias principales y vinculacion con tareas S2 | ✅ Completado |
 | 4 | — | Pendiente | ⬜ |
 
 ---

@@ -1,0 +1,19 @@
+Issue Type,Summary,Description,Priority,Assignee,Parent Story
+Story,HU-001 Registro y verificacion de usuario,"Como estudiante universitario, quiero registrarme con mi correo institucional, para verificar que pertenezco a la comunidad universitaria y poder usar la plataforma de forma segura.",High,Diego Quintero,
+Sub-task,CP-001 Definir dominios institucionales permitidos,"Existe una lista inicial de dominios validos para registro universitario.",High,Diego Rivera,HU-001 Registro y verificacion de usuario
+Sub-task,CP-002 Crear flujo de registro con correo institucional,"El usuario puede capturar nombre, correo institucional y contrasena.",High,Diego Quintero,HU-001 Registro y verificacion de usuario
+Sub-task,CP-003 Disenar verificacion de cuenta por correo,"El usuario queda como no verificado hasta confirmar su correo.",High,Diego Quintero,HU-001 Registro y verificacion de usuario
+Sub-task,CP-004 Crear modelo de usuario y roles,"El modelo distingue pasajero, conductor y administrador basico.",High,Sebastian Lugo,HU-001 Registro y verificacion de usuario
+Story,HU-002 Publicacion de viaje,"Como conductor universitario, quiero publicar un viaje con origen, destino, horario y asientos disponibles, para compartir mi ruta con otros estudiantes que necesiten trasladarse a la universidad.",High,Diego Rivera,
+Sub-task,CP-005 Definir formulario para publicar viaje,"El conductor puede registrar origen, destino, fecha, hora y asientos disponibles.",High,Diego Rivera,HU-002 Publicacion de viaje
+Sub-task,CP-006 Crear modelo de viaje,"El viaje guarda conductor, ruta, horario, cupos y estado.",High,Diego Quintero,HU-002 Publicacion de viaje
+Sub-task,CP-011 Crear prototipo de pantallas principales,"El prototipo incluye registro, publicar viaje, buscar viaje y solicitudes.",Medium,Sebastian Lugo,HU-002 Publicacion de viaje
+Story,HU-003 Busqueda y solicitud de viaje,"Como pasajero universitario, quiero buscar viajes disponibles y solicitar unirme a uno, para encontrar una opcion de transporte segura, economica y coordinada con otros estudiantes.",High,Sebastian Lugo,
+Sub-task,CP-007 Construir busqueda de viajes disponibles,"El pasajero puede filtrar viajes por origen, destino y horario.",High,Sebastian Lugo,HU-003 Busqueda y solicitud de viaje
+Sub-task,CP-008 Crear solicitud para unirse a un viaje,"El pasajero puede enviar solicitud y el conductor puede verla pendiente.",High,Diego Rivera,HU-003 Busqueda y solicitud de viaje
+Sub-task,CP-009 Definir estados de solicitud,"Las solicitudes manejan estados pendiente, aceptada y rechazada.",Medium,Sebastian Lugo,HU-003 Busqueda y solicitud de viaje
+Sub-task,CP-011 Crear prototipo de pantallas principales,"El prototipo incluye registro, publicar viaje, buscar viaje y solicitudes.",Medium,Sebastian Lugo,HU-003 Busqueda y solicitud de viaje
+Story,HU-004 Notificaciones de solicitudes y recordatorios,"Como usuario de la plataforma, quiero recibir notificaciones sobre solicitudes, confirmaciones, rechazos y recordatorios de viaje, para mantenerme informado y coordinar mi traslado sin confusiones.",Medium,Diego Quintero,
+Sub-task,CP-009 Definir estados de solicitud,"Las solicitudes manejan estados pendiente, aceptada y rechazada.",Medium,Sebastian Lugo,HU-004 Notificaciones de solicitudes y recordatorios
+Sub-task,CP-010 Disenar notificaciones basicas,"Se define cuando notificar confirmaciones, rechazos y recordatorios.",Medium,Diego Quintero,HU-004 Notificaciones de solicitudes y recordatorios
+Sub-task,CP-012 Documentar criterios de exito del MVP,"El README o documento de producto incluye metricas y alcance validado.",Medium,Diego Rivera,HU-004 Notificaciones de solicitudes y recordatorios
