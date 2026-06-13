@@ -6,7 +6,7 @@
 |-------|---------|
 | **Proyecto** | Car-Pooling Universitario |
 | **Equipo** | Diego Rivera · Sebastián Lugo · Diego Quintero |
-| **Sesión actual** | Sesión 3 |
+| **Sesión actual** | Sesión 4 - Diseño |
 | **Estado** | 🟢 En progreso |
 | **Tablero operativo** | [Jira - Car-Pooling](https://cesunbc-team-ztwxd7jm.atlassian.net/jira/software/projects/CPTU/list?jql=project+%3D+CPTU+ORDER+BY+cf%5B10019%5D+ASC&atlOrigin=eyJpIjoiMjE1MGY3OTVkNTlmNDllMjhmNzk3MjIwNDlhM2Q5NjAiLCJwIjoiaiJ9) |
 
@@ -57,6 +57,7 @@ car-pooling/
 ├── docs/                # Documentación de ingeniería
 │   ├── historias-de-usuario.md
 │   ├── historias_de_usuario.md # Historias oficiales refinadas de la Sesión 3
+│   ├── design/          # Sitemap, wireframes y user flows de la Sesión 4
 │   ├── diccionario-de-datos.md
 │   ├── matriz-de-riesgos.md
 │   ├── entrega-sesion-2.md # Checklist y flujo de PR de la Sesión 2
@@ -92,6 +93,15 @@ car-pooling/
 - [CSV de apoyo para Jira](management/jira-historias-sesion-3.csv)
 - [Guia de entrega y Pull Request](docs/entrega-sesion-3.md)
 
+### Entregable Sesion 4 - Diseno
+
+- [Documentacion de diseno](docs/design/README.md)
+- [Sitemap express](docs/design/sitemap.png)
+- [User flows](docs/design/user_flows.pdf)
+- [Wireframe Login](docs/design/wireframe_login.png)
+- [Wireframe Home](docs/design/wireframe_home.png)
+- [Wireframe Busqueda de viajes](docs/design/wireframe_busqueda_viajes.png)
+
 ---
 
 ## 📅 Bitácora de Avance Semanal
@@ -101,7 +111,7 @@ car-pooling/
 | 1 | — | Repo, estructura de carpetas, README con visión del MVP | ✅ Completado |
 | 2 | — | Tablero operativo y backlog inicial con 12 tareas asignadas | ✅ Completado |
 | 3 | — | Refinamiento de 4 historias principales y vinculacion con tareas S2 | ✅ Completado |
-| 4 | — | Pendiente | ⬜ |
+| 4 | — | Entorno de diseno, sitemap y user flows | ✅ Completado |
 
 ---
 
