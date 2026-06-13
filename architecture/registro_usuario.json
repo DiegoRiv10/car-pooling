@@ -1,0 +1,77 @@
+{
+  "screen": {
+    "id": "registro_usuario",
+    "name": "Registro y verificacion de usuario",
+    "mvp_story": "HU-001 Registro y verificacion de usuario",
+    "description": "Pantalla donde un estudiante crea su cuenta con correo institucional para acceder a la plataforma."
+  },
+  "http": {
+    "method": "POST",
+    "endpoint": "/api/v1/auth/register",
+    "content_type": "application/json"
+  },
+  "request_body": {
+    "full_name": {
+      "ui_field": "Campo de texto: Nombre_Completo",
+      "type": "string",
+      "required": true,
+      "example": "Diego Rivera"
+    },
+    "institutional_email": {
+      "ui_field": "Campo de texto/email: Correo_Institucional",
+      "type": "string",
+      "format": "email",
+      "required": true,
+      "example": "diego.rivera@cesun.edu.mx"
+    },
+    "student_id": {
+      "ui_field": "Campo de texto: Matricula",
+      "type": "string",
+      "required": false,
+      "example": "2402230170"
+    },
+    "password": {
+      "ui_field": "Campo de password: Contrasena",
+      "type": "string",
+      "required": true,
+      "min_length": 8,
+      "example": "********"
+    },
+    "confirm_password": {
+      "ui_field": "Campo de password: Confirmar_Contrasena",
+      "type": "string",
+      "required": true,
+      "min_length": 8,
+      "example": "********"
+    },
+    "role": {
+      "ui_field": "Selector: Rol_Usuario",
+      "type": "string",
+      "required": true,
+      "allowed_values": ["pasajero", "conductor"],
+      "example": "pasajero"
+    },
+    "accepted_terms": {
+      "ui_field": "Booleano/Check: Acepta_Terminos",
+      "type": "boolean",
+      "required": true,
+      "example": true
+    }
+  },
+  "server_validations": [
+    "El correo debe tener dominio institucional permitido.",
+    "La contrasena y la confirmacion deben coincidir.",
+    "El usuario no debe existir previamente.",
+    "El usuario queda en estado pendiente de verificacion."
+  ],
+  "success_response": {
+    "status_code": 201,
+    "body": {
+      "user_id": "usr_001",
+      "full_name": "Diego Rivera",
+      "institutional_email": "diego.rivera@cesun.edu.mx",
+      "verification_status": "pending",
+      "message": "Registro creado. Revisa tu correo institucional para verificar la cuenta."
+    }
+  }
+}
