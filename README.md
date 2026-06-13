@@ -6,7 +6,7 @@
 |-------|---------|
 | **Proyecto** | Car-Pooling Universitario |
 | **Equipo** | Diego Rivera · Sebastián Lugo · Diego Quintero |
-| **Sesión actual** | Sesión 3 |
+| **Sesión actual** | Sesión 4 |
 | **Estado** | 🟢 En progreso |
 | **Tablero operativo** | [Jira - Car-Pooling](https://cesunbc-team-ztwxd7jm.atlassian.net/jira/software/projects/CPTU/list?jql=project+%3D+CPTU+ORDER+BY+cf%5B10019%5D+ASC&atlOrigin=eyJpIjoiMjE1MGY3OTVkNTlmNDllMjhmNzk3MjIwNDlhM2Q5NjAiLCJwIjoiaiJ9) |
 
@@ -54,13 +54,19 @@ car-pooling/
 │   ├── backlog-inicial.md # Backlog operativo de la Sesión 2
 │   └── jira-historias-sesion-3.csv # Apoyo para reestructura en Jira
 │
+├── architecture/        # Modelado de datos e interfaces API
+│   ├── README.md        # Metodos HTTP y escaneo de pantallas
+│   ├── registro_usuario.json
+│   └── busqueda_viajes.json
+│
 ├── docs/                # Documentación de ingeniería
 │   ├── historias-de-usuario.md
 │   ├── historias_de_usuario.md # Historias oficiales refinadas de la Sesión 3
 │   ├── diccionario-de-datos.md
 │   ├── matriz-de-riesgos.md
 │   ├── entrega-sesion-2.md # Checklist y flujo de PR de la Sesión 2
-│   └── entrega-sesion-3.md # Checklist y flujo de PR de la Sesión 3
+│   ├── entrega-sesion-3.md # Checklist y flujo de PR de la Sesión 3
+│   └── entrega-sesion-4.md # Checklist y flujo de PR de la Sesión 4
 │
 ├── prototypes/          # Activos de diseño y UX
 │   ├── figma-link.md    # Enlace permanente a Figma
@@ -92,6 +98,13 @@ car-pooling/
 - [CSV de apoyo para Jira](management/jira-historias-sesion-3.csv)
 - [Guia de entrega y Pull Request](docs/entrega-sesion-3.md)
 
+### Entregable Sesion 4
+
+- [Arquitectura de datos y metodos HTTP](architecture/README.md)
+- [JSON de registro de usuario](architecture/registro_usuario.json)
+- [JSON de busqueda de viajes](architecture/busqueda_viajes.json)
+- [Guia de entrega y Pull Request](docs/entrega-sesion-4.md)
+
 ---
 
 ## 📅 Bitácora de Avance Semanal
@@ -101,7 +114,7 @@ car-pooling/
 | 1 | — | Repo, estructura de carpetas, README con visión del MVP | ✅ Completado |
 | 2 | — | Tablero operativo y backlog inicial con 12 tareas asignadas | ✅ Completado |
 | 3 | — | Refinamiento de 4 historias principales y vinculacion con tareas S2 | ✅ Completado |
-| 4 | — | Pendiente | ⬜ |
+| 4 | — | Escaneo de pantallas, modelado JSON y metodos HTTP | ✅ Completado |
 
 ---
 

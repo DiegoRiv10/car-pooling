@@ -1,0 +1,102 @@
+{
+  "screen": {
+    "id": "busqueda_viajes",
+    "name": "Busqueda de viajes disponibles",
+    "mvp_story": "HU-003 Busqueda y solicitud de viaje",
+    "description": "Pantalla donde un pasajero consulta viajes disponibles segun ruta, fecha y horario."
+  },
+  "http": {
+    "method": "GET",
+    "endpoint": "/api/v1/rides",
+    "content_type": "application/json"
+  },
+  "query_params": {
+    "origin": {
+      "ui_field": "Campo de texto: Origen",
+      "type": "string",
+      "required": true,
+      "example": "Zona Rio"
+    },
+    "destination": {
+      "ui_field": "Campo de texto: Destino",
+      "type": "string",
+      "required": true,
+      "example": "CESUN Universidad"
+    },
+    "departure_date": {
+      "ui_field": "Selector de fecha: Fecha_Salida",
+      "type": "string",
+      "format": "date",
+      "required": true,
+      "example": "2026-06-13"
+    },
+    "start_time": {
+      "ui_field": "Selector de hora: Hora_Inicio",
+      "type": "string",
+      "format": "time",
+      "required": false,
+      "example": "07:00"
+    },
+    "end_time": {
+      "ui_field": "Selector de hora: Hora_Fin",
+      "type": "string",
+      "format": "time",
+      "required": false,
+      "example": "09:00"
+    },
+    "seats_required": {
+      "ui_field": "Campo numerico: Asientos_Requeridos",
+      "type": "integer",
+      "required": false,
+      "minimum": 1,
+      "example": 1
+    },
+    "only_available": {
+      "ui_field": "Booleano/Check: Solo_Disponibles",
+      "type": "boolean",
+      "required": false,
+      "example": true
+    },
+    "sort_by": {
+      "ui_field": "Selector: Ordenar_Por",
+      "type": "string",
+      "required": false,
+      "allowed_values": ["departure_time", "available_seats", "driver_rating"],
+      "example": "departure_time"
+    }
+  },
+  "server_validations": [
+    "Origen y destino son obligatorios.",
+    "La fecha debe tener formato ISO YYYY-MM-DD.",
+    "El numero de asientos requeridos no puede ser menor a 1.",
+    "Solo se devuelven viajes activos y con asientos disponibles."
+  ],
+  "success_response": {
+    "status_code": 200,
+    "body": {
+      "total_results": 2,
+      "rides": [
+        {
+          "ride_id": "ride_001",
+          "driver_name": "Diego Rivera",
+          "origin": "Zona Rio",
+          "destination": "CESUN Universidad",
+          "departure_date": "2026-06-13",
+          "departure_time": "07:30",
+          "available_seats": 3,
+          "status": "available"
+        },
+        {
+          "ride_id": "ride_002",
+          "driver_name": "Sebastian Lugo",
+          "origin": "Zona Rio",
+          "destination": "CESUN Universidad",
+          "departure_date": "2026-06-13",
+          "departure_time": "08:00",
+          "available_seats": 2,
+          "status": "available"
+        }
+      ]
+    }
+  }
+}
