@@ -2,13 +2,15 @@
 
 ## Herramienta utilizada
 
-Para esta entrega se utilizo documentacion visual generada en el repositorio como alternativa a Figma/Miro. Los archivos estan listos para revisarse directamente desde GitHub.
+Para esta entrega se utilizo Figma como herramienta principal de diseno y se respaldaron los assets visuales en esta carpeta del repositorio.
 
-> Si el profesor solicita estrictamente Figma, se puede crear un archivo en Figma llamado `Car-Pooling - Transporte Universitario`, importar las imagenes de esta carpeta y pegar aqui el enlace publico en modo presentacion.
+## Enlace publico de Figma
 
-## Enlace publico de herramienta visual
+[Figma - 4.1 Sitemap](https://www.figma.com/design/MIRhazuP9aB3Xar4AluQd0/4.1-Sitemap--Figma---Jira?node-id=0-1&t=Gkx5SDKngm0TWZJ1-1)
 
-Se utilizo esta carpeta de GitHub como herramienta visual de entrega. Los archivos `sitemap.png`, `user_flows.pdf` y los wireframes PNG funcionan como evidencia revisable directamente desde el repositorio.
+## Evidencia visual en GitHub
+
+Ademas del enlace de Figma, los archivos `sitemap.png`, `user_flows.pdf` y los wireframes PNG funcionan como respaldo revisable directamente desde el repositorio.
 
 ## Pantallas principales del MVP
 
