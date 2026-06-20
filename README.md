@@ -1,121 +1,88 @@
-# 🚗 Car-Pooling — Transporte Universitario
+# Car-Pooling Universitario
 
-## Dashboard del Proyecto
+## Portada del Proyecto Final
 
 | Campo | Detalle |
 |-------|---------|
-| **Proyecto** | Car-Pooling Universitario |
-| **Equipo** | Diego Rivera · Sebastián Lugo · Diego Quintero |
-| **Sesión actual** | Sesión 4 |
-| **Estado** | 🟢 En progreso |
-| **Tablero operativo** | [Jira - Car-Pooling](https://cesunbc-team-ztwxd7jm.atlassian.net/jira/software/projects/CPTU/list?jql=project+%3D+CPTU+ORDER+BY+cf%5B10019%5D+ASC&atlOrigin=eyJpIjoiMjE1MGY3OTVkNTlmNDllMjhmNzk3MjIwNDlhM2Q5NjAiLCJwIjoiaiJ9) |
+| Proyecto | Car-Pooling Universitario |
+| Materia | Administracion de Proyectos de Software |
+| Equipo | Diego Rivera, Sebastian Lugo, Diego Quintero |
+| Repositorio | https://github.com/DiegoRiv10/car-pooling |
+| Jira | https://cesunbc-team-ztwxd7jm.atlassian.net/jira/software/projects/CPTU/list |
+| Figma publico | https://www.figma.com/design/MIRhazuP9aB3Xar4AluQd0/4.1-Sitemap--Figma---Jira?node-id=0-1&t=Gkx5SDKngm0TWZJ1-1 |
 
----
+## Propuesta de Valor
 
-## 👥 Equipo y Roles
+Car-Pooling Universitario es una plataforma para conectar estudiantes que viajan hacia la misma universidad. El MVP permite registrar usuarios con correo institucional, publicar viajes, buscar rutas disponibles, solicitar lugares y recibir notificaciones relacionadas con el traslado.
 
-| Integrante | Rol | Responsabilidad |
-|------------|-----|-----------------|
-| Diego Rivera | Scrum Master | Gestión del flujo de trabajo, revisión y aprobación de PRs, merge a main |
-| Sebastián Lugo | Product Owner | Priorización del backlog, validación de entregas contra la visión del MVP |
-| Diego Quintero | Development Lead | Arquitectura técnica, estructura de código y documentación de ingeniería |
+## Alcance del MVP
 
----
+1. Registro y verificacion de usuarios.
+2. Publicacion de viajes por conductores.
+3. Busqueda y solicitud de viajes por pasajeros.
+4. Notificaciones de solicitudes, confirmaciones, rechazos y recordatorios.
 
-## 🎯 Visión del MVP
+## Estructura Final del Repositorio
 
-### El Problema (Pain Point)
-Los estudiantes universitarios enfrentan dificultades diarias para trasladarse a la universidad: el transporte público es ineficiente, costoso o inseguro, y muchos compañeros viajan solos en sus autos con asientos vacíos. No existe un canal confiable y organizado para coordinar viajes compartidos entre la comunidad estudiantil.
-
-### La Propuesta de Valor
-Una plataforma que conecta a estudiantes que se dirigen a la misma universidad, permitiéndoles compartir viajes de forma segura, económica y coordinada. Los conductores publican sus rutas y horarios, y los pasajeros solicitan unirse, reduciendo costos de transporte y la huella de carbono.
-
-### El Alcance Crítico (MVP)
-Las funciones mínimas sin las cuales el producto no existe:
-1. **Registro y autenticación de usuarios** — Verificación con correo institucional.
-2. **Publicación de viajes** — El conductor crea un viaje con origen, destino, horario y asientos disponibles.
-3. **Búsqueda y solicitud de viaje** — El pasajero busca viajes disponibles y solicita unirse.
-4. **Sistema de notificaciones** — Confirmación/rechazo de solicitudes y recordatorios de viaje.
-
-### Métrica de Éxito
-- Lograr al menos **20 viajes compartidos** coordinados a través de la plataforma durante el primer mes de prueba.
-- Alcanzar una tasa de **80% de satisfacción** entre los usuarios que completen un viaje.
-
----
-
-## 📁 Estructura del Repositorio
-
-```
+```text
 car-pooling/
-├── management/          # Gestión estratégica del proyecto
-│   ├── presupuesto.md   # Presupuesto inicial
-│   ├── roi.md           # Cálculo de Retorno de Inversión
-│   ├── backlog.csv      # Exportación del Backlog (Jira/Trello)
-│   ├── backlog-inicial.md # Backlog operativo de la Sesión 2
-│   └── jira-historias-sesion-3.csv # Apoyo para reestructura en Jira
-│
-├── architecture/        # Modelado de datos e interfaces API
-│   ├── README.md        # Metodos HTTP y escaneo de pantallas
-│   ├── registro_usuario.json
-│   └── busqueda_viajes.json
-│
-├── docs/                # Documentación de ingeniería
-│   ├── historias-de-usuario.md
-│   ├── historias_de_usuario.md # Historias oficiales refinadas de la Sesión 3
-│   ├── diccionario-de-datos.md
-│   ├── matriz-de-riesgos.md
-│   ├── entrega-sesion-2.md # Checklist y flujo de PR de la Sesión 2
-│   ├── entrega-sesion-3.md # Checklist y flujo de PR de la Sesión 3
-│   └── entrega-sesion-4.md # Checklist y flujo de PR de la Sesión 4
-│
-├── prototypes/          # Activos de diseño y UX
-│   ├── figma-link.md    # Enlace permanente a Figma
-│   └── screenshots/     # Capturas del prototipo
-│
-└── README.md            # 📍 Este archivo (Dashboard)
+├── README.md
+└── docs/
+    ├── business/
+    │   └── historias_usuario.md
+    ├── design/
+    │   ├── README.md
+    │   ├── sitemap.png
+    │   ├── user_flows.pdf
+    │   ├── wireframe_login.png
+    │   ├── wireframe_home.png
+    │   └── wireframe_busqueda_viajes.png
+    └── architecture/
+        ├── README.md
+        └── contratos/
+            ├── registro_usuario.json
+            └── busqueda_viajes.json
 ```
 
----
+## Entregables por Rubrica
 
-## 🔄 Flujo de Trabajo
+### Gestion de Proyecto
 
-1. **Branching** — Cada entregable se trabaja en una rama separada (ej: `feat-session-1`).
-2. **Pull Request** — Al terminar, se crea un PR hacia `main`.
-3. **Code Review** — El Scrum Master (Diego Rivera) revisa y aprueba.
-4. **Merge** — Integración final a la rama `main`.
+- Tablero Jira con historias principales y subtareas.
+- Sprint final cerrado en Jira.
+- Historias y tareas tecnicas en estado Done.
+- Comentarios de evidencia con enlaces a Figma y GitHub.
 
-> ⚠️ **Regla de Oro:** *"Todo debe estar en la rama main para que cuente como entregado y ser calificado."*
+### Diseno e Interactividad
 
-### Entregable Sesion 2
+- Prototipo publico en Figma.
+- Sitemap del MVP en `docs/design/sitemap.png`.
+- User flows en `docs/design/user_flows.pdf`.
+- Wireframes de Login, Home y Busqueda de viajes.
 
-- [Backlog inicial](management/backlog-inicial.md)
-- [Backlog en CSV para tablero](management/backlog.csv)
-- [Guia de entrega y Pull Request](docs/entrega-sesion-2.md)
+### Ingenieria y Documentacion
 
-### Entregable Sesion 3
+- Historias de usuario con criterios Gherkin en `docs/business/historias_usuario.md`.
+- Contratos JSON en `docs/architecture/contratos/`.
+- Metodos HTTP documentados en `docs/architecture/README.md`.
 
-- [Historias de usuario refinadas](docs/historias_de_usuario.md)
-- [CSV de apoyo para Jira](management/jira-historias-sesion-3.csv)
-- [Guia de entrega y Pull Request](docs/entrega-sesion-3.md)
+## Trazabilidad General
 
-### Entregable Sesion 4
+| Historia | Pantalla Figma | Contrato JSON |
+|----------|----------------|---------------|
+| HU-001 Registro y verificacion de usuario | Login / Registro | `docs/architecture/contratos/registro_usuario.json` |
+| HU-002 Publicacion de viaje | Home / Publicar viaje | No requerido en esta iteracion de contratos |
+| HU-003 Busqueda y solicitud de viaje | Busqueda de viajes | `docs/architecture/contratos/busqueda_viajes.json` |
+| HU-004 Notificaciones | Home / Notificaciones | No requerido en esta iteracion de contratos |
 
-- [Arquitectura de datos y metodos HTTP](architecture/README.md)
-- [JSON de registro de usuario](architecture/registro_usuario.json)
-- [JSON de busqueda de viajes](architecture/busqueda_viajes.json)
-- [Guia de entrega y Pull Request](docs/entrega-sesion-4.md)
+## Historial de Pull Requests
 
----
+| PR | Entregable |
+|----|------------|
+| https://github.com/DiegoRiv10/car-pooling/pull/1 | Tablero operativo y backlog inicial |
+| https://github.com/DiegoRiv10/car-pooling/pull/2 | Historias de usuario refinadas |
+| https://github.com/DiegoRiv10/car-pooling/pull/3 | Modelado JSON y metodos HTTP |
 
-## 📅 Bitácora de Avance Semanal
+## Estado Final
 
-| Sesión | Fecha | Entregable | Estado |
-|--------|-------|------------|--------|
-| 1 | — | Repo, estructura de carpetas, README con visión del MVP | ✅ Completado |
-| 2 | — | Tablero operativo y backlog inicial con 12 tareas asignadas | ✅ Completado |
-| 3 | — | Refinamiento de 4 historias principales y vinculacion con tareas S2 | ✅ Completado |
-| 4 | — | Escaneo de pantallas, modelado JSON y metodos HTTP | ✅ Completado |
-
----
-
-*Repositorio mantenido por el equipo Car-Pooling © 2025*
+El repositorio contiene la documentacion final del MVP sin codigo fuente de programacion, organizada por negocio, diseno y arquitectura conforme a los lineamientos de cierre y calidad.
