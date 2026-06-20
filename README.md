@@ -9,7 +9,7 @@
 | Equipo | Diego Rivera, Sebastian Lugo, Diego Quintero |
 | Repositorio | https://github.com/DiegoRiv10/car-pooling |
 | Jira | https://cesunbc-team-ztwxd7jm.atlassian.net/jira/software/projects/CPTU/list |
-| Figma publico | https://www.figma.com/design/MIRhazuP9aB3Xar4AluQd0/4.1-Sitemap--Figma---Jira?node-id=0-1&t=Gkx5SDKngm0TWZJ1-1 |
+| Figma publico | https://www.figma.com/proto/MlRhazuP9aB3Xar4AIuQdO/4.1-Sitemap---Figma--Jira?node-id=2014-4&p=f&t=7TD3XndIjc74jQGW-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1 |
 
 ## Propuesta de Valor
 

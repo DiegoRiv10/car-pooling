@@ -6,7 +6,7 @@ Para esta entrega se utilizo Figma como herramienta principal de diseno y se res
 
 ## Enlace publico de Figma
 
-[Figma - 4.1 Sitemap](https://www.figma.com/design/MIRhazuP9aB3Xar4AluQd0/4.1-Sitemap--Figma---Jira?node-id=0-1&t=Gkx5SDKngm0TWZJ1-1)
+[Figma - Prototipo interactivo](https://www.figma.com/proto/MlRhazuP9aB3Xar4AIuQdO/4.1-Sitemap---Figma--Jira?node-id=2014-4&p=f&t=7TD3XndIjc74jQGW-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)
 
 ## Evidencia visual en GitHub
 
